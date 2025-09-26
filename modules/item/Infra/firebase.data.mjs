@@ -12,11 +12,11 @@ import {
 
 const firebaseConfig = {
   apiKey: "",
-  authDomain: "shoplist-db-4f43f.firebaseapp.com",
-  projectId: "shoplist-db-4f43f",
-  storageBucket: "shoplist-db-4f43f.appspot.com",
-  messagingSenderId: "875144526075",
-  appId: "1:875144526075:web:1280261ec4e446cb55985e"
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 }
 
 const app = initializeApp(firebaseConfig);

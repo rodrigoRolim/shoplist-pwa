@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-campatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="./UI/styles/main.css" rel="stylesheet" />
+  <link href="manifest.json" rel="manifest">
+ <!--  <link href="Ui/images/shoplist.png" rel="apple-rouch-icon" /> -->
+  <meta name="apple-mobile-web-app" content="#00695c"/>
+  <meta name="theme-color" content="#00695c" />
+  <title>Shoplist</title>
+</head>
+<body>
+  <header class="header"></header>
+  <main class="main" id="app">
+    <ul id="item-list" class="items"></ul>
+    <form id="add-item-form" class="add-item">
+      <fieldset class="field-add-item">
+        <legend class="legend">Adicionar um produto na sua lista de compras</legend>
+        <label for="name" class="product-name col l-input">
+          <span id="label-name">nome</span>
+          <input class="input" type="text" name="product-name" id="name" aria-labelledby="label-name"/>
+        </label>
+        <label for="count" class="quantity col w-full l-input">
+          <span id="label-quantity">quantidade</span>
+          <div class="row w-full gap">
+            <input class="input w-full" type="number" min="1" step="1" name="product-count" id="count" aria-labelledby="label-quantity"/>
+            <select name="unit" class="unit input" id="unit">
+              <option>und</option>
+              <option>kg</option>
+              <option>ml</option>
+            </select>
+          </div>
+        </div>
+        </label>
+        <label for="price" class="price col l-input">
+          <span id="label-price">preço da unidade</span>
+          <input class="input" type="text" name="product-price" id="price" inputmode="numeric" aria-labelledby="label-price"/>
+        </label>
+      </fieldset>
+      <button type="submit" class="add-button">adicionar</button>
+    </form>
+  </main>
+  <footer></footer>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>

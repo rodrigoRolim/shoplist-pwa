@@ -1,0 +1,68 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.input {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  padding: 0.8rem 0.5rem;
+}
+
+.add-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field-add-item {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 0;
+  gap: 8px;
+}
+
+.legend {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.l-input {
+  gap: 4px;
+}
+
+.gap {
+  gap: 4px;
+}
+
+.add-button {
+  border: 1px solid transparent;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(147, 31, 255);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: capitalize;
+}

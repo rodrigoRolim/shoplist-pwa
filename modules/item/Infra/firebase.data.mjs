@@ -11,7 +11,7 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore.js"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCCHRdAPxeWa2HJ1ormm8Fjy5UzKySJ7ok",
+  apiKey: "",
   authDomain: "shoplist-db-4f43f.firebaseapp.com",
   projectId: "shoplist-db-4f43f",
   storageBucket: "shoplist-db-4f43f.appspot.com",

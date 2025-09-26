@@ -1,0 +1,24 @@
+{
+  "name": "ShopList",
+  "short_name": "shoplist",
+  "start_url": "index.hml",
+  "display": "standalone",
+  "background_color": "#4db6ac",
+  "theme_color": "#00695c",
+  "orientation": "portrait-primary",
+  "screenshots": [{
+    "src": "UI/img/shoplist.png",
+    "sizes": "225x225",
+    "type": "image/png",
+    "form_factor": "wide",
+    "label": "Wonder Widgets"
+  }],
+  "description": "app for adding items to your shop list",
+  "icons": [
+    {
+      "src": "UI/img/shoplist.png",
+      "type": "image/png",
+      "sizes": "225x225"
+    }
+  ]
+}
